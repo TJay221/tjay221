@@ -1,0 +1,27 @@
+body {background-color: #eae0d7;
+
+}
+p {font-size: 16px;
+    font-family: 'optima', 'calibri', 'arial', sans-serif;
+    color: #0c0b0b;
+}
+h1 {font-size: 26px;
+    font-family: 'palatino', 'Times New Roman', Times, serif;
+    color: #db4b00
+}
+h2 {font-size: 18px;
+    font-family:'palatino', 'Times New Roman', Times, serif;
+    color: #ac3d02;
+}
+
+h3 {font-size: 14;
+    font-family: 'palatino', 'Times New Roman', Times, serif;
+    color: #ac3d02;
+}
+
+nav {font-family: 'optima', 'calibri', 'arial', sans-serif;
+    background-color: #c7cbd3;
+}
+
+ol {background-color: #c7cbd3;
+}
