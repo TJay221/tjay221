@@ -44,6 +44,32 @@ nav a {
     text-align: center;
     border-radius: 15%;
 }
+.stepgrid {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 1rem 2rem;
+}
+.stepgrid_thirds {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 1rem 2rem;
+}
+
+.page_jump {
+    font-family: 'optima', 'calibri', 'arial', sans-serif;
+    background-color: #c7cbd3;
+    text-align: center;
+    text-decoration: none;
+    padding: 0% 0 0% 0;
+}
+.page_jump a {
+    text-decoration: none;
+    color: #ac3d02;
+}
+
+ul {
+    list-style-type: none;
+}
 
 img {
     float: left;
@@ -55,7 +81,7 @@ img {
     background-color: #c7cbd3;
 }
 
-.list ol img {
+.list img {
     float: none;
 }
 
