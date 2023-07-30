@@ -44,11 +44,6 @@ nav a {
     padding: 30px;
     text-decoration: none;
 }
-
-a:hover {
-    background-color: #ac3d02;
-    color: #c7cbd3
-}
 .intro {
     margin-left: 15%;
     width: 70%;
@@ -59,8 +54,8 @@ a:hover {
 }
 
 .content {
-    margin-left: 5%;
-    width: 90%;
+    margin-left: 15%;
+    width: 70%;
 }
 
 .content h2 {
@@ -86,12 +81,9 @@ a:hover {
 
 .stepgrid {
     display: grid;
-    grid-template-columns: 2fr 2fr;
+    grid-column-start: 2;
+    grid-column-end: 11;
     grid-gap: 1rem 2rem;
-    text-align: center;
-}
-.stepgrid a {
-    text-align: center;
 }
 
 .stepgrid_thirds {
@@ -109,6 +101,8 @@ img {
 }
 
 .list {
+    margin-left: 15%;
+    width: 70%;
     background-color: #c7cbd3;
 }
 
@@ -135,11 +129,8 @@ h3 {
     color: #ac3d02;
 }
 
-@media screen and (max-width: 500px){
-nav a {
-        margin: 0;
-        padding:2%;
+@media only screen and (max-width: 500px){
+    .pagetype1{
+        grid-template-columns: 1fr;
     }
-.pagetype1 {
-    grid-template-columns: 1fr;}
 }
